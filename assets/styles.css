@@ -517,6 +517,9 @@ body {
 }
 
 .misi {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
     padding-top: 5em;
     padding-bottom: 5em;
 }
@@ -526,6 +529,13 @@ body {
     font-size: 24px;
     line-height: 36px;
     color: #4FDE80;
+}
+
+/*JADWAL*/
+.border-jadwal {
+    border: 1px solid #4FDE80;
+    padding: 2em 2em 1em 2em;
+    border-radius: 8px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -590,6 +600,12 @@ body {
     .img-galery {
         height: 150px;
         width: 100%;
+    }
+
+    .img-paticle-kubah {
+        width: 100%;
+        height: 200px;
+        display: none;
     }
 
     .card-parent {
@@ -797,6 +813,12 @@ body {
         justify-content: center;
     }
 
+    .img-paticle-kubah {
+        width: 100%;
+        height: 200px;
+        display: none;
+    }
+
     .news-card {
         width: 600px;
     }
@@ -939,6 +961,12 @@ body {
 
     .carousel-galery {
         width: 98%;
+    }
+
+    .img-paticle-kubah {
+        width: 100%;
+        height: 200px;
+        display: unset;
     }
 
     .news-card {
