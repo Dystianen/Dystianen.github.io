@@ -147,7 +147,7 @@ body {
 
 .btn-completed:hover {
     color: #2EE59D;
-    box-shadow: 8px 8px 33px #d7d6d6, -8px -8px 33px #f4f4f4;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.16);
 }
 
 .btn-completed:after {
@@ -979,6 +979,10 @@ body {
         width: 98%;
     }
 
+    .img-slider {
+        height: 250px;
+    }
+
     .img-paticle-kubah {
         width: 100%;
         height: 200px;
@@ -1144,6 +1148,10 @@ body {
 
     .carousel-galery {
         width: 100%;
+    }
+
+    .img-slider {
+        height: 300px;
     }
 
     .news-card {
